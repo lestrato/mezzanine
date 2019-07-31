@@ -18,6 +18,7 @@ jQuery(function($) {
                     return selectFieldDirty(field, -1);
                 case 'text':
                 case 'textarea':
+                case 'search':
                 case 'file':
                 case 'email':
                 case 'number':
