@@ -143,7 +143,7 @@ class BaseDynamicInlineAdmin(object):
     """
 
     form = DynamicInlineAdminForm
-    extra = 1
+    extra = 20
 
     def get_fields(self, request, obj=None):
         """
